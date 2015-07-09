@@ -1,5 +1,23 @@
 # Git Style Guide
 
+>
+## TL;DR
+ - When you start working, create a short and descriptive branch name and use dashes to separate words. Eg `git checkout -b jt/styleguide-colors`
+ - Try to never work directly on master
+ - Make a commit for each logical, modular change. Each commit should change one thing, and should function on its own
+ - Be kind, leave good commit messages for those who come after you: one line headline + extended description of changes (what, how, why).
+ - Push often (at least once a day when actively working on a project)
+ - Only rebase if no one else is looking at or touching your code. (It's typically safe to rebase until you open a Pull Request and rarely safe afterwards)
+ - Open a pull request as soon as you're ready for feedback
+ - When changes are ready to merge via the Github pull request interface, or using `git merge --no-ff your-branch`
+
+<small>redpeppers don't likely need to read further, but the full git style guide is encluded below for completeness</small>
+
+***
+
+
+
+
 This is a Git Style Guide inspired by [*How to Get Your Change Into the Linux
 Kernel*](https://www.kernel.org/doc/Documentation/SubmittingPatches),
 the [git man pages](http://git-scm.com/doc) and various practices popular
